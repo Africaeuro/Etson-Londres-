@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Africaeuro</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#555;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.container{
+    padding:40px;
+}
+
+.produtos{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.produto{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.botao{
+    background:green;
+    color:white;
+    padding:10px;
+    display:inline-block;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AFRICAEURO</h1>
+    <p>Loja Online</p>
+</header>
+
+<section class="container">
+    <h2>Produtos</h2>
+
+    <div class="produtos">
+
+        <div class="produto">
+            <h3>Roupa Chanel</h3>
+            <p>Preço: 23
